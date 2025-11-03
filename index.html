@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tareaihc</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="cajero">
+        <div class="lado-izquierdo">
+          <div class="pantalla"></div>
+          <div class="botonera-inferior">
+            <button class="btn-cuadro"></button>
+            <button class="btn-cuadro"></button>
+            <button class="btn-cuadro"></button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="lista-productos" id="lista-productos"></div>
+          <div class="total" id="total">Total: $0</div>
+          <button class="btn-pagar">Ir a Pagar<br><small>Paso 1 de 3</small></button>
+          <div id="popup" class="popup">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
